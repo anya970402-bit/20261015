@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSV 選擇題測驗</title>
+
+  <!-- 保留 Google Fonts；程式本身使用單一字型設定，避免混合字型造成執行問題。 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      color-scheme: light;
+      font-family: "Noto Serif TC", serif;
+      background: #f6f2ec;
+      color: #2f2925;
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body {
+      margin: 0;
+      min-width: 320px;
+      min-height: 100%;
+      background: #f6f2ec;
+    }
+
+    body {
+      overflow: hidden;
+    }
+
+    #app {
+      width: 100vw;
+      height: 100vh;
+      min-height: 480px;
+      position: relative;
+    }
+
+    #boot-status {
+      position: fixed;
+      inset: 0;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+      text-align: center;
+      font-size: 20px;
+      background: #f6f2ec;
+      z-index: 2;
+    }
+
+    canvas {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <main id="app">
+    <div id="boot-status">正在載入 p5.js 與題庫，請稍候……</div>
+  </main>
+
+  <!-- 順序固定：先載入 p5.js，再載入 sketch.js。 -->
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.11.1/lib/p5.min.js"></script>
+  <script src="sketch.js"></script>
+</body>
+</html>

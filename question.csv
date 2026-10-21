@@ -1,0 +1,16 @@
+﻿question,optionA,optionB,optionC,optionD,answer
+在 p5.js 中，哪一個指令可以建立畫布？,createCanvas(),makeCanvas(),canvasCreate(),setCanvas(),0
+在 p5.js 中，哪一個函式會在程式開始時執行一次？,start(),setup(),begin(),init(),1
+在 p5.js 中，哪一個函式會不斷重複執行？,repeat(),looping(),draw(),run(),2
+下列哪一個指令可以設定背景顏色？,background(),colorBackground(),setBackground(),bgColor(),0
+下列哪一個指令可以繪製圓形？,circle(),round(),drawCircle(),ellipseCircle(),0
+下列哪一個函式可以設定文字大小？,fontSize(),textSize(),sizeText(),文字大小(),1
+下列哪一個函式可以設定填色色彩？,fill(),colorFill(),paint(),insideColor(),0
+下列哪一個函式可以設定線條色彩？,lineColor(),stroke(),borderColor(),drawLineColor(),1
+下列哪一個函式可以繪製矩形？,squareBox(),rectangle(),rect(),boxDraw(),2
+下列哪一個函式可以繪製橢圓形？,ellipse(),ovalShape(),roundEllipse(),drawOval(),0
+p5.js 的 setup() 通常會執行幾次？,一次,兩次,每一幀一次,不固定,0
+p5.js 的 draw() 函式主要用途是什麼？,只執行一次,重複繪製畫面,讀取 HTML,關閉畫布,1
+下列哪一個函式可以設定畫布大小？,canvasSize(),createCanvas(),setWindow(),sizeCanvasOnly(),1
+下列哪一個變數通常代表畫布寬度？,canvasWidth,screenWidth,width,pageWidth,2
+下列哪一個變數通常代表畫布高度？,height,canvasHeightOnly,screenHeightOnly,pageHeight,0
